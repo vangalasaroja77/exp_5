@@ -1,0 +1,27 @@
+
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: lightblue;
+        }
+
+        form {
+            background-color: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        input, select, button {
+            margin: 5px;
+            padding: 8px;
+        }
+
+        #result {
+            color: green;
+        }
+
+        #error {
+            color: red;
+        }
+    
