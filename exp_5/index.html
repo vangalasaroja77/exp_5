@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Event Registration</h2>
+    <p class="subtitle">Register for your favourite event!</p>
+
+    <form id="form">
+        <label>Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name">
+
+        <label>Email Address</label>
+        <input type="text" id="email" placeholder="Enter your email">
+
+        <label>Phone Number</label>
+        <input type="text" id="phone" placeholder="Enter 10-digit phone number">
+
+        <label>Gender</label>
+        <select id="gender">
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+        <label>College Name</label>
+        <input type="text" id="college" placeholder="Enter college name">
+
+        <label>Department</label>
+        <input type="text" id="dept" placeholder="Enter department">
+
+        <label>Year of Study</label>
+        <select id="year">
+            <option value="">Select Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+
+        <label>Event Selection</label>
+        <select id="event">
+            <option value="">Select Event</option>
+            <option>Hackathon</option>
+            <option>Workshop</option>
+            <option>Technical Quiz</option>
+            <option>Paper Presentation</option>
+        </select>
+
+        <p id="error"></p>
+
+        <div class="buttons">
+            <button type="submit">Register</button>
+            <button type="reset" class="reset">Reset</button>
+        </div>
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
